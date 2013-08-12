@@ -1,0 +1,18 @@
+<StudentPersonal RefId="ABC123"> 
+  <LocalId>123</LocalId>  
+  <PersonInfo>     
+    <Name Type="old">       
+        <FamilyName>XXX should not get family name</FamilyName>      
+        <GivenName>XXX Given name here</GivenName>       
+     </Name> 
+    <Name Type="LGL">       
+        <FamilyName>The family name</FamilyName>      
+        <GivenName>Given name here</GivenName>       
+     </Name> 
+   </PersonInfo>
+   <MostRecent>
+       <SchoolLocalId>XYZ123</SchoolLocalId>    
+       <YearLevel>P</YearLevel>  
+  </MostRecent>
+</StudentPersonal> 
+
