@@ -16,4 +16,4 @@ print $school->to_xml_string();
 my $student = SIF::AU::StudentPersonal->from_xml_file('StudentPersonal.xml');
 print $student->LocalId . ": " . $student->PersonInfo->Name->FamilyName . "\n";
 
-
+$student->xml_validate();                     
